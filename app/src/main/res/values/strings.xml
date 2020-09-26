@@ -1,8 +1,8 @@
 <resources>
-    <string name="app_name">SplashScreenDemo</string>
-    <string name="booki">BookI</string>
+    <string name="app_name">Sparl</string>
+    <string name="sparl">Sparl</string>
     <string name="welcome_back">Welcome Back</string>
-    <string name="read_it_together">Read it together</string>
+    <string name="read_it_together">Find Now</string>
     <string name="skip">Skip</string>
     <string name="login">Login</string>
     <string name="email">Email</string>
