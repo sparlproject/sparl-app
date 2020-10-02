@@ -1,10 +1,11 @@
 <resources>
     <string name="app_name">Sparl</string>
     <string name="sparl">Sparl</string>
-    <string name="welcome_back">Welcome Back</string>
-    <string name="read_it_together">Find Now</string>
+    <string name="welcome_back">Welcome</string>
+    <string name="read_it_together">Find Doctors Now</string>
     <string name="skip">Skip</string>
     <string name="login">Login</string>
+    <string name="google">Google</string>
     <string name="email">Email</string>
     <string name="password">Password</string>
     <string name="sign_up">Sign up</string>

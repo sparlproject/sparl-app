@@ -75,24 +75,28 @@
             android:gravity="center"
             android:orientation="vertical">
 
-            <android.support.design.widget.TextInputEditText
-                android:id="@+id/emailEditText"
+            <EditText
+                android:id="@+id/email"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/email"
-                android:textColor="@color/colorTextView"
+                android:inputType="textEmailAddress"
+                android:textColor="#FF2680CA"
                 android:textColorHint="@color/colorAccent"
-                android:textSize="15sp" />
+                android:textSize="15sp"
+                android:importantForAutofill="no" />
 
-            <android.support.design.widget.TextInputEditText
+            <EditText
                 android:id="@+id/passwordEditText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="25dp"
                 android:hint="@string/password"
+                android:inputType="textPassword"
                 android:textColor="@color/colorTextView"
                 android:textColorHint="@color/colorAccent"
-                android:textSize="15sp" />
+                android:textSize="15sp"
+                android:importantForAutofill="no" />
 
             <FrameLayout
                 android:layout_width="match_parent"
