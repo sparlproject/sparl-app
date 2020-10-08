@@ -20,9 +20,9 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:gravity="center_horizontal"
-            android:text="KotlinDroider"
-            android:textAllCaps="true"
-            android:textColor="@color/white"
+            android:text="Welcome"
+            android:textSize="25sp"
+            android:textColor="@color/colorBackground"
             android:textStyle="bold" />
         <!-- Name Label -->
         <RelativeLayout
