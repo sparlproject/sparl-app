@@ -81,7 +81,7 @@
                 android:layout_height="wrap_content"
                 android:hint="@string/email"
                 android:inputType="textEmailAddress"
-                android:textColor="#FF2680CA"
+                android:textColor="@color/colorTextView"
                 android:textColorHint="@color/colorAccent"
                 android:textSize="15sp"
                 android:importantForAutofill="no" />
@@ -104,22 +104,30 @@
                 android:layout_marginTop="10dp"
                 android:padding="5dp">
 
-                <Button
+                <TextView
+                    android:id="@+id/signupbutton"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:background="?android:attr/selectableItemBackground"
                     android:text="@string/sign_up"
                     android:textColor="@color/colorTextView"
-                    android:textSize="14sp"
+                    android:textSize="15sp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:padding="7dp"
                     android:textStyle="bold" />
-
-
+                
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="end|center_vertical"
+                    android:background="?android:attr/selectableItemBackground"
                     android:text="@string/forget_password"
                     android:textColor="@color/colorTextView"
-                    android:textSize="14sp"
+                    android:textSize="15sp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:padding="7dp"
                     android:textStyle="bold" />
 
             </FrameLayout>
@@ -152,7 +160,6 @@
             android:text="@string/skip"
             android:textColor="@color/colorTextView"
             android:textSize="15sp" />
-
 
     </RelativeLayout>
 

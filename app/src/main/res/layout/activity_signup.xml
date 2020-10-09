@@ -12,9 +12,6 @@
         android:paddingRight="24dp"
         android:paddingTop="56dp">
 
-
-
-
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -39,9 +36,6 @@
                 android:inputType="textPersonName" />
         </RelativeLayout>
 
-
-
-
         <!--  Email Label -->
         <RelativeLayout
             android:layout_width="match_parent"
@@ -56,9 +50,6 @@
                 android:hint="Email"
                 android:inputType="textEmailAddress" />
         </RelativeLayout>
-
-
-
 
         <!-- Password Label -->
         <RelativeLayout
@@ -88,7 +79,7 @@
                 android:layout_height="wrap_content"
                 android:hint="Re-enter Password"
                 android:inputType="textPassword" />
-        </>
+        </RelativeLayout>
 
         <!-- Signup Button -->
         <Button

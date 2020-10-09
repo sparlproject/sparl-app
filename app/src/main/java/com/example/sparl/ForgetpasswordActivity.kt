@@ -12,7 +12,7 @@ class ForgetpasswordActivity : AppCompatActivity() {
 
     public override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(com.example.sparl.R.layout.activity_signup)
+        setContentView(com.example.sparl.R.layout.activity_forgetpassword)
 
 
     }

@@ -1,12 +1,15 @@
 package com.example.sparl
 
 import android.animation.Animator
+import android.content.Intent
 import android.os.Bundle
 import android.os.CountDownTimer
 import android.view.View
 import android.view.View.VISIBLE
 import android.view.Window
 import android.view.WindowManager
+import android.widget.Button
+import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import kotlinx.android.synthetic.main.activity_main.*
@@ -17,6 +20,11 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         requestWindowFeature(Window.FEATURE_NO_TITLE)
         setContentView(R.layout.activity_main)
+        val textview: TextView = findViewById(R.id.signupbutton)
+        textview.setOnClickListener {
+            val intent = Intent(this@MainActivity, SignupActivity::class.java)
+            startActivity(intent)
+        }
         object : CountDownTimer(5000, 1000) {
             override fun onFinish() {
                 bookITextView.visibility = View.GONE
@@ -25,7 +33,6 @@ class MainActivity : AppCompatActivity() {
                 bookIconImageView.setImageResource(R.drawable.background_color_book)
                 startAnimation()
             }
-
             override fun onTick(p0: Long) {}
         }.start()
     }
