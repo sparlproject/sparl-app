@@ -20,11 +20,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         requestWindowFeature(Window.FEATURE_NO_TITLE)
         setContentView(R.layout.activity_main)
-        val textview: TextView = findViewById(R.id.signupbutton)
-        textview.setOnClickListener {
-            val intent = Intent(this@MainActivity, SignupActivity::class.java)
-            startActivity(intent)
-        }
+
         object : CountDownTimer(5000, 1000) {
             override fun onFinish() {
                 bookITextView.visibility = View.GONE
@@ -35,6 +31,11 @@ class MainActivity : AppCompatActivity() {
             }
             override fun onTick(p0: Long) {}
         }.start()
+        val textview: TextView = findViewById(R.id.signupbutton)
+        textview.setOnClickListener {
+            val intent = Intent(this@MainActivity, SignupActivity::class.java)
+            startActivity(intent)
+        }
     }
 
     private fun startAnimation() {
