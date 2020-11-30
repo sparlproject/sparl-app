@@ -8,9 +8,13 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
 import android.widget.Toast
+import android.view.View
+import kotlinx.android.synthetic.main.activity_signup.*
 
 
 class SignupActivity : AppCompatActivity() {
+
+    var Button: Button? = null
 
     var _nameText: EditText? = null
     var _addressText: EditText? = null
@@ -24,6 +28,13 @@ class SignupActivity : AppCompatActivity() {
     public override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_signup)
+
+        btnhome.setOnClickListener{
+            val intent = Intent(this, homepage::class.java)
+            startActivity(intent)
+        }
+
+
 
 
     }

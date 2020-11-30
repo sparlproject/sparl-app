@@ -10,4 +10,20 @@
     <string name="password">Password</string>
     <string name="sign_up">Sign up</string>
     <string name="forget_password">Forget Password.?</string>
+    <string name="sparl_team">SPARL Team,</string>
+    <string name="hello">Hello</string>
+    <string name="search">Search hospitals here.....</string>
+    <string name="goals">Goals</string>
+    <string name="disease_predictor">Disease Predictor</string>
+    <string name="insurance">Insurance</string>
+    <string name="predictor">Predictor</string>
+    <string name="hospitals">Hospitals</string>
+    <string name="clinics">Clinics</string>
+    <string name="click_here">Click here!</string>
+    <string name="disease_pred_def">Machine Learning based disease predictor that helps you to predict your disease and risk level on the basis of your symptoms</string>
+    <string name="home">Home</string>
+    <string name="favourite">Favourite</string>
+    <string name="account">Account</string>
+    <string name="settings">Settings</string>
+    <string name="trending">TRENDING</string>
 </resources>
