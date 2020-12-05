@@ -11,7 +11,9 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="240dp"
-        android:background="#293859" />
+        android:background="#293859" >
+
+    </LinearLayout>
 
     <!--Top Header Layout-->
     <LinearLayout
@@ -32,14 +34,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Profile"
-            android:textColor="@color/white"
-            android:textSize="20sp"
-            android:textStyle="bold" />
 
         <Space
             android:layout_width="wrap_content"
@@ -65,13 +59,16 @@
             android:layout_height="match_parent"
             android:orientation="vertical"
             android:paddingLeft="20dp"
-            android:paddingTop="10dp"
+            android:paddingTop="5dp"
             android:paddingRight="20dp">
 
             <!--Top Profile Section -->
+
+            <!--Option Bar-->
+
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="254dp"
                 android:background="@drawable/circularbordersolid"
                 android:gravity="center"
                 android:orientation="vertical"
@@ -87,7 +84,7 @@
                         android:layout_width="150dp"
                         android:layout_height="90dp"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/pp" />
+                        android:src="@drawable/hospital" />
 
                 </androidx.cardview.widget.CardView>
 
@@ -95,12 +92,13 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
                         android:fontFamily="@font/proximanovaregular"
-                        android:text="Dr. Sanskar Tiwari"
+                        android:text="Apollo Hospital"
                         android:textColor="#424242"
                         android:textSize="21sp"
                         android:textStyle="bold" />
@@ -144,7 +142,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="2dp"
-                                android:text="@string/job_success"
+                                android:text="Positives"
                                 android:textSize="12sp" />
                         </LinearLayout>
                     </LinearLayout>
@@ -188,8 +186,6 @@
                 </LinearLayout>
             </LinearLayout>
 
-            <!--Option Bar-->
-
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -232,7 +228,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="@string/about_me"
+                                android:text="Info"
                                 android:fontFamily="@font/proximanovaregular"
                                 android:textSize="17sp"
                                 android:textStyle="bold" />
@@ -330,7 +326,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginLeft="20dp"
                                 android:textColor="@color/goodgrey"
-                                android:text="sanskar@theindianappguy.com"
+                                android:text="contact@apollohospital.com"
                                 android:textSize="15sp"
                                 android:fontFamily="@font/proximanovaregular" />
                         </LinearLayout>

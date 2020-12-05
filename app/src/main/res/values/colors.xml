@@ -14,13 +14,17 @@
     <color name="colorTextView">#83898E</color>
     <color name="white">#F0F0F0</color>
     <color name="bg">#EBEBEB</color>
-    <color name="colorPrimary">#008577</color>
-    <color name="colorPrimaryDark">#293859</color>
-    <color name="colorAccent">#D81B60</color>
-    <color name="white">#ffffff</color>
     <color name="grey">#E9EAEE</color>
     <color name="yellow">#F8BA0F</color>
     <color name="goodgrey">#535353</color>
     <color name="blue">#293859</color>
     <color name="lightgrey">#EEEEEE</color>
+    <color name="dark_blue">#1A237E</color>
+    <color name="dark_black">#121212</color>
+    <color name="light_black">#1e1e1e</color>
+    <color name="gray">#dcdcdc</color>
+    <color name="red">#fc3939</color>
+    <color name="move">#f833ff</color>
+    <color name="green">#68da8c</color>
+    <color name="shimmer_background_color">#b1b1b1</color>
 </resources>
