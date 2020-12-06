@@ -80,4 +80,5 @@
     <string name="no_phone_number">Sorry. I have not phone number!</string>
     <string name="select_location">please select a location</string>
     <string name="select_location_or_name_msg">At least select name or location</string>
+    <string name="sparl">Sparl</string>
 </resources>
