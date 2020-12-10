@@ -7,15 +7,10 @@
 
     <item android:id="@+id/menufav"
         android:icon="@drawable/ic_fav"
-        android:title="@string/favourite"/>
+        android:title="Predictor"/>
 
     <item android:id="@+id/menuaccount"
         android:icon="@drawable/ic_account"
         android:title="@string/account"/>
-
-    <item android:id="@+id/menusettings"
-        android:icon="@drawable/ic_settings"
-        android:title="@string/settings"/>
-
 
 </menu>

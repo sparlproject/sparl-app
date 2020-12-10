@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.sparl">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -11,6 +11,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".Edit_Profile" />
+        <activity android:name=".About" />
+        <activity android:name=".User_Profile" />
         <activity android:name=".Doctor_Profile" />
         <activity android:name=".homepage" />
         <activity android:name=".ForgetpasswordActivity" />
