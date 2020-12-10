@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".THIRD"
+    tools:ignore="MissingDefaultResource">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="267dp"
+        android:layout_marginEnd="16dp"
+        android:text="Yes Sparl is for everyone, and its aesthatic UI allows users of all age group to use its Features easily.Just you need to make your profile once
+and that's it you will be able to use SPARL for free.  "
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="214dp" />
+</RelativeLayout>
