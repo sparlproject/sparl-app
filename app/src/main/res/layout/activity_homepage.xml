@@ -6,7 +6,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/bg"
-        tools:context=".MainActivity">
+        tools:context=".homepage">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/layoutHeader"
@@ -114,24 +114,29 @@
                     android:background="@drawable/white_rect_bg"
                     android:gravity="center"
                     android:orientation="vertical"
-                    android:padding="15dp"
+                    android:padding="10dp"
                     app:layout_constraintDimensionRatio="H,1:1"
                     app:layout_constraintEnd_toStartOf="@id/layoutclinic"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent">
 
-                    <ImageView
+                    <ImageButton
+                        android:id="@+id/HospitalButton1"
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:layout_margin="8dp"
+                        android:background="@color/colorWhite"
                         android:contentDescription="@string/app_name"
                         android:padding="8dp"
                         android:src="@drawable/hospital" />
 
-                    <TextView
+                    <Button
+                        android:id="@+id/HospitalButton2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center"
+                        android:background="@color/colorWhite"
+                        android:clickable="true"
                         android:text="@string/hospitals"
                         android:textColor="@color/colorAccent"
                         android:textSize="20sp"
@@ -147,24 +152,29 @@
                     android:background="@drawable/white_rect_bg"
                     android:gravity="center"
                     android:orientation="vertical"
-                    android:padding="15dp"
+                    android:padding="10dp"
                     app:layout_constraintDimensionRatio="H,1:1"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toEndOf="@id/layoutpredictor"
-                    app:layout_constraintTop_toTopOf="parent"
-                    tools:ignore="MissingConstraints">
+                    app:layout_constraintTop_toTopOf="parent">
 
-                    <ImageView
-                        android:layout_width="100dp"
+
+                    <ImageButton
+                        android:id="@+id/ClinicButton1"
+                        android:layout_width="99dp"
                         android:layout_height="100dp"
                         android:layout_margin="8dp"
+                        android:background="@color/colorWhite"
                         android:contentDescription="@string/app_name"
                         android:padding="8dp"
                         android:src="@drawable/clinic" />
 
-                    <TextView
+                    <Button
+                        android:id="@+id/ClinicButton2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:background="@color/colorWhite"
+                        android:clickable="true"
                         android:gravity="center"
                         android:text="@string/clinics"
                         android:textColor="@color/colorAccent"
@@ -243,7 +253,7 @@
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="16dp"
+                    android:layout_marginTop="12dp"
                     android:background="@drawable/trending_bg"
                     android:padding="20dp"
                     app:layout_constraintEnd_toEndOf="@id/layoutInsurance"
@@ -281,13 +291,14 @@
                         android:id="@+id/textView"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="20dp"
+                        android:layout_marginTop="8dp"
                         android:ellipsize="end"
                         android:maxLines="3"
                         android:text="@string/disease_pred_def"
                         android:textColor="@color/colorWhite"
                         android:textSize="15sp"
-                        app:layout_constraintTop_toBottomOf="@+id/textTrending"/>
+                        app:layout_constraintTop_toBottomOf="@+id/textTrending"
+                        tools:layout_editor_absoluteX="25dp" />
 
 
                 </androidx.constraintlayout.widget.ConstraintLayout>
@@ -307,12 +318,15 @@
             app:menu="@menu/navigation_menu"
             tools:ignore="UnusedAttribute" />
 
-        <View
+        <ImageButton
             android:id="@+id/viewDivider"
             android:layout_width="match_parent"
             android:layout_height="1dp"
             android:background="@color/colorDivide"
-            app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView" />
+            android:src="@drawable/ic_account"
+            android:clickable="true"
+            app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView"
+            tools:ignore="MissingConstraints" />
 
 
 

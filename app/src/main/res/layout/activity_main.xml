@@ -25,19 +25,7 @@
         android:text="@string/sparl"
         android:textColor="@color/colorSplashText"
         android:textSize="16sp" />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:layout_marginLeft="330dp"
-        android:background="?android:attr/selectableItemBackground"
-        android:text="@string/skip1"
-        android:textColor="@color/colorTextView"
-        android:textSize="15sp"
-        android:clickable="true"
-        android:focusable="true"
-        android:padding="7dp"
-        android:textStyle="bold" />
+
 
     <ProgressBar
         android:id="@+id/loadingProgressBar"
@@ -165,6 +153,7 @@
             android:id="@+id/google_signin"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:gravity="center"
             android:layout_alignParentBottom="true"
             android:layout_marginBottom="10dp"
             android:layout_marginLeft="115dp"/>
