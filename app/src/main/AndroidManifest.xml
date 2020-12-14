@@ -16,6 +16,8 @@
         <activity android:name=".About" />
         <activity android:name=".User_Profile" />
         <activity android:name=".Doctor_Profile" />
+        <activity android:name=".search_clinic" />
+        <activity android:name=".search_hospital" />
         <activity android:name=".homepage" />
         <activity android:name=".ForgetpasswordActivity" />
         <activity android:name=".SignupActivity" />
