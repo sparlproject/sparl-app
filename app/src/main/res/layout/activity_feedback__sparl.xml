@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="#21AC9E"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".Feedback_Sparl">
 
     <TextView
         android:layout_width="match_parent"

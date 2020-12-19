@@ -3,13 +3,14 @@ import android.widget.RatingBar
 import android.widget.RatingBar.OnRatingBarChangeListener
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import com.example.sparl.R
 
 class MainActivity : AppCompatActivity() {
     var tvFeedback: TextView? = null
     var rbStars: RatingBar? = null
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_feedback__sparl)
         tvFeedback = findViewById(R.id.tvFeedback)
         rbStars = findViewById(R.id.rbStars)
         rbStars.setOnRatingBarChangeListener(OnRatingBarChangeListener { ratingBar, rating, fromUser ->

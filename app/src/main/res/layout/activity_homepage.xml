@@ -114,7 +114,7 @@
                     android:background="@drawable/white_rect_bg"
                     android:gravity="center"
                     android:orientation="vertical"
-                    android:padding="10dp"
+                    android:padding="7dp"
                     app:layout_constraintDimensionRatio="H,1:1"
                     app:layout_constraintEnd_toStartOf="@id/layoutclinic"
                     app:layout_constraintStart_toStartOf="parent"
@@ -152,7 +152,7 @@
                     android:background="@drawable/white_rect_bg"
                     android:gravity="center"
                     android:orientation="vertical"
-                    android:padding="10dp"
+                    android:padding="7dp"
                     app:layout_constraintDimensionRatio="H,1:1"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toEndOf="@id/layoutpredictor"
@@ -307,26 +307,25 @@
 
         </ScrollView>
 
-        <com.google.android.material.bottomnavigation.BottomNavigationView
-            android:id="@+id/bottomNavigationView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:backgroundTint="@color/colorWhite"
-            app:itemIconSize="30dp"
-            app:labelVisibilityMode="unlabeled"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:menu="@menu/navigation_menu"
-            tools:ignore="UnusedAttribute" />
+    <FrameLayout
+        android:id="@+id/flFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-        <ImageButton
-            android:id="@+id/viewDivider"
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="@color/colorDivide"
-            android:src="@drawable/ic_account"
-            android:clickable="true"
-            app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView"
-            tools:ignore="MissingConstraints" />
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/navigation_menu"/>
+
 
 
 

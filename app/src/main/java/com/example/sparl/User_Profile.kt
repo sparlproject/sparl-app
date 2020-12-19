@@ -1,9 +1,8 @@
 package com.example.sparl
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import kotlinx.android.synthetic.main.activity_homepage.*
+import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_user_profile.*
 
 class User_Profile : AppCompatActivity() {
