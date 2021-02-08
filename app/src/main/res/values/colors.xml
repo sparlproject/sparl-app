@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#2BCC6F</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#B9BBBD</color>
+    <color name="colorPrimary">#11CFC5</color>
+    <color name="colorPrimaryDark">#000</color>
+    <color name="colorAccent">#FF402D</color>
+
+    <!--colors for light mode-->
+    <color name="imageBorderColor">#E01E7A</color>
+    <!--colors for dark mode-->
+    <color name="contentBodyColor">#000</color>
+    <color name="contentTextColor">#0E0E0E</color>
+    <color name="miniTitle">#090909</color>
     <color name="colorPrimaryLight">#E9F8F1</color>
     <color name="colorWhite">#FFFFFF</color>
     <color name="colorBackground">#FF1A9734</color>

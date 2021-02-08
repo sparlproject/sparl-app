@@ -84,7 +84,7 @@
                 android:inputType="textEmailAddress"
                 android:textColor="@color/colorTextView"
                 android:textColorHint="@color/colorAccent"
-                android:textSize="15sp"
+                android:textSize="20sp"
                 android:importantForAutofill="no" />
 
             <EditText
@@ -96,7 +96,7 @@
                 android:inputType="textPassword"
                 android:textColor="@color/colorTextView"
                 android:textColorHint="@color/colorAccent"
-                android:textSize="15sp"
+                android:textSize="20sp"
                 android:importantForAutofill="no" />
 
             <FrameLayout
@@ -142,21 +142,20 @@
             android:layout_height="55dp"
             android:layout_above="@+id/google_signin"
             android:layout_marginBottom="5dp"
-            android:background="@drawable/button_drawable"
             android:text="@string/login"
+            android:gravity="center"
             android:textAllCaps="false"
             android:textColor="@color/colorAccent"
-            android:textSize="16sp" />
+            android:textSize="18sp" />
 
         <com.google.android.gms.common.SignInButton
-
             android:id="@+id/google_signin"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
             android:gravity="center"
             android:layout_alignParentBottom="true"
-            android:layout_marginBottom="10dp"
-            android:layout_marginLeft="115dp"/>
+            android:layout_marginBottom="5dp"
+            />
 
     </RelativeLayout>
 
